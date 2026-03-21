@@ -1,0 +1,1772 @@
+[
+  {
+    "id": 1,
+    "username": "jsmith92",
+    "email": "john.smith@example.com",
+    "password_hash": "$2b$12$abc123xyz",
+    "profile": {
+      "first_name": "John",
+      "last_name": "Smith",
+      "age": 32,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/jsmith92.jpg",
+      "bio": "Software engineer with 10 years of experience in backend systems.",
+      "date_of_birth": "1992-04-15"
+    },
+    "contact": {
+      "phone": "+1-555-234-5678",
+      "address": {
+        "street": "123 Maple St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "country": "USA"
+      },
+      "social": {
+        "twitter": "@jsmith92",
+        "linkedin": "linkedin.com/in/johnsmith92",
+        "github": "github.com/jsmith92"
+      }
+    },
+    "account": {
+      "created_at": "2018-06-12T08:30:00Z",
+      "last_login": "2026-03-20T14:22:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2020-01-01T00:00:00Z",
+        "expires_at": "2027-01-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "America/Chicago",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 142,
+      "followers": 980,
+      "following": 210,
+      "reputation": 4750
+    },
+    "tags": ["engineer", "open-source", "nodejs", "rust"]
+  },
+  {
+    "id": 2,
+    "username": "amira_hassan",
+    "email": "amira.hassan@webmail.io",
+    "password_hash": "$2b$12$def456uvw",
+    "profile": {
+      "first_name": "Amira",
+      "last_name": "Hassan",
+      "age": 27,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/amira_hassan.jpg",
+      "bio": "UX designer passionate about accessibility and inclusive design.",
+      "date_of_birth": "1998-11-03"
+    },
+    "contact": {
+      "phone": "+44-7911-123456",
+      "address": {
+        "street": "45 Baker Street",
+        "city": "London",
+        "state": "England",
+        "zip": "NW1 6XE",
+        "country": "UK"
+      },
+      "social": {
+        "twitter": "@amiradesigns",
+        "linkedin": "linkedin.com/in/amirahassan",
+        "github": "github.com/amira-h"
+      }
+    },
+    "account": {
+      "created_at": "2021-03-08T10:00:00Z",
+      "last_login": "2026-03-19T09:15:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2021-03-08T00:00:00Z",
+        "expires_at": "2026-03-08T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Europe/London",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 67,
+      "followers": 1540,
+      "following": 320,
+      "reputation": 3200
+    },
+    "tags": ["design", "ux", "figma", "accessibility"]
+  },
+  {
+    "id": 3,
+    "username": "carlos_mv",
+    "email": "carlos.mv@techcorp.mx",
+    "password_hash": "$2b$12$ghi789rst",
+    "profile": {
+      "first_name": "Carlos",
+      "last_name": "Mendez Vargas",
+      "age": 41,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/carlos_mv.jpg",
+      "bio": "CTO at TechCorp. Cloud architecture enthusiast.",
+      "date_of_birth": "1984-07-22"
+    },
+    "contact": {
+      "phone": "+52-55-5555-0101",
+      "address": {
+        "street": "Av. Insurgentes Sur 1602",
+        "city": "Mexico City",
+        "state": "CDMX",
+        "zip": "03940",
+        "country": "Mexico"
+      },
+      "social": {
+        "twitter": "@carlosmv_tech",
+        "linkedin": "linkedin.com/in/carlosmendezvargas",
+        "github": "github.com/carlos-mv"
+      }
+    },
+    "account": {
+      "created_at": "2015-09-01T00:00:00Z",
+      "last_login": "2026-03-21T07:00:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2019-06-15T00:00:00Z",
+        "expires_at": "2028-06-15T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "es",
+      "timezone": "America/Mexico_City",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 312,
+      "followers": 5200,
+      "following": 180,
+      "reputation": 9800
+    },
+    "tags": ["cloud", "aws", "kubernetes", "leadership"]
+  },
+  {
+    "id": 4,
+    "username": "yuki_tanaka",
+    "email": "yuki.tanaka@nihon.co.jp",
+    "password_hash": "$2b$12$jkl012mno",
+    "profile": {
+      "first_name": "Yuki",
+      "last_name": "Tanaka",
+      "age": 29,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/yuki_tanaka.jpg",
+      "bio": "Full-stack developer and anime enthusiast from Tokyo.",
+      "date_of_birth": "1996-02-14"
+    },
+    "contact": {
+      "phone": "+81-3-1234-5678",
+      "address": {
+        "street": "1-1 Shibuya",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "zip": "150-0002",
+        "country": "Japan"
+      },
+      "social": {
+        "twitter": "@yuki_dev",
+        "linkedin": "linkedin.com/in/yukitanaka",
+        "github": "github.com/yuki-t"
+      }
+    },
+    "account": {
+      "created_at": "2019-12-01T00:00:00Z",
+      "last_login": "2026-03-20T23:45:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2022-04-01T00:00:00Z",
+        "expires_at": "2027-04-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "ja",
+      "timezone": "Asia/Tokyo",
+      "theme": "light",
+      "notifications": {
+        "email": false,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 88,
+      "followers": 720,
+      "following": 430,
+      "reputation": 2100
+    },
+    "tags": ["fullstack", "react", "typescript", "anime"]
+  },
+  {
+    "id": 5,
+    "username": "lena_wagner",
+    "email": "lena.wagner@berlin.de",
+    "password_hash": "$2b$12$pqr345stu",
+    "profile": {
+      "first_name": "Lena",
+      "last_name": "Wagner",
+      "age": 35,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/lena_wagner.jpg",
+      "bio": "Data scientist specializing in NLP and machine learning.",
+      "date_of_birth": "1990-09-30"
+    },
+    "contact": {
+      "phone": "+49-30-12345678",
+      "address": {
+        "street": "Unter den Linden 12",
+        "city": "Berlin",
+        "state": "Berlin",
+        "zip": "10117",
+        "country": "Germany"
+      },
+      "social": {
+        "twitter": "@lena_nlp",
+        "linkedin": "linkedin.com/in/lenawagner",
+        "github": "github.com/lena-w"
+      }
+    },
+    "account": {
+      "created_at": "2017-05-20T00:00:00Z",
+      "last_login": "2026-03-18T16:30:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2021-09-01T00:00:00Z",
+        "expires_at": "2026-09-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "de",
+      "timezone": "Europe/Berlin",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 201,
+      "followers": 3400,
+      "following": 95,
+      "reputation": 7600
+    },
+    "tags": ["ml", "nlp", "python", "pytorch"]
+  },
+  {
+    "id": 6,
+    "username": "dev_omar",
+    "email": "omar.sheikh@devlab.pk",
+    "password_hash": "$2b$12$vwx678yza",
+    "profile": {
+      "first_name": "Omar",
+      "last_name": "Sheikh",
+      "age": 24,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/dev_omar.jpg",
+      "bio": "Mobile developer building apps for emerging markets.",
+      "date_of_birth": "2001-06-18"
+    },
+    "contact": {
+      "phone": "+92-300-1234567",
+      "address": {
+        "street": "Blue Area",
+        "city": "Islamabad",
+        "state": "Punjab",
+        "zip": "44000",
+        "country": "Pakistan"
+      },
+      "social": {
+        "twitter": "@omar_builds",
+        "linkedin": "linkedin.com/in/omarsheikh",
+        "github": "github.com/dev-omar"
+      }
+    },
+    "account": {
+      "created_at": "2022-01-10T00:00:00Z",
+      "last_login": "2026-03-21T05:10:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2022-01-10T00:00:00Z",
+        "expires_at": "2026-01-10T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Asia/Karachi",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 33,
+      "followers": 410,
+      "following": 512,
+      "reputation": 890
+    },
+    "tags": ["flutter", "android", "firebase", "mobile"]
+  },
+  {
+    "id": 7,
+    "username": "sofia_ricci",
+    "email": "sofia.ricci@milano.it",
+    "password_hash": "$2b$12$bcd901efg",
+    "profile": {
+      "first_name": "Sofia",
+      "last_name": "Ricci",
+      "age": 38,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/sofia_ricci.jpg",
+      "bio": "Product manager with a background in fashion tech.",
+      "date_of_birth": "1987-12-05"
+    },
+    "contact": {
+      "phone": "+39-02-12345678",
+      "address": {
+        "street": "Via Montenapoleone 8",
+        "city": "Milan",
+        "state": "Lombardy",
+        "zip": "20121",
+        "country": "Italy"
+      },
+      "social": {
+        "twitter": "@sofia_pm",
+        "linkedin": "linkedin.com/in/sofiaricci",
+        "github": "github.com/sofia-r"
+      }
+    },
+    "account": {
+      "created_at": "2016-08-14T00:00:00Z",
+      "last_login": "2026-03-17T11:00:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2020-03-01T00:00:00Z",
+        "expires_at": "2027-03-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "it",
+      "timezone": "Europe/Rome",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 175,
+      "followers": 2890,
+      "following": 340,
+      "reputation": 6100
+    },
+    "tags": ["product", "fashion-tech", "agile", "leadership"]
+  },
+  {
+    "id": 8,
+    "username": "kwame_asante",
+    "email": "kwame.asante@accra.gh",
+    "password_hash": "$2b$12$hij234klm",
+    "profile": {
+      "first_name": "Kwame",
+      "last_name": "Asante",
+      "age": 31,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/kwame_asante.jpg",
+      "bio": "Blockchain developer building DeFi solutions for Africa.",
+      "date_of_birth": "1994-03-10"
+    },
+    "contact": {
+      "phone": "+233-24-1234567",
+      "address": {
+        "street": "Oxford Street",
+        "city": "Accra",
+        "state": "Greater Accra",
+        "zip": "GA-123",
+        "country": "Ghana"
+      },
+      "social": {
+        "twitter": "@kwame_defi",
+        "linkedin": "linkedin.com/in/kwameasante",
+        "github": "github.com/kwame-a"
+      }
+    },
+    "account": {
+      "created_at": "2020-07-04T00:00:00Z",
+      "last_login": "2026-03-20T20:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2023-01-01T00:00:00Z",
+        "expires_at": "2026-01-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Accra",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 55,
+      "followers": 1100,
+      "following": 270,
+      "reputation": 3050
+    },
+    "tags": ["blockchain", "defi", "solidity", "web3"]
+  },
+  {
+    "id": 9,
+    "username": "priya_nair",
+    "email": "priya.nair@techpark.in",
+    "password_hash": "$2b$12$nop567qrs",
+    "profile": {
+      "first_name": "Priya",
+      "last_name": "Nair",
+      "age": 26,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/priya_nair.jpg",
+      "bio": "DevOps engineer automating infrastructure at scale.",
+      "date_of_birth": "1999-08-25"
+    },
+    "contact": {
+      "phone": "+91-98765-43210",
+      "address": {
+        "street": "Koramangala 4th Block",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zip": "560034",
+        "country": "India"
+      },
+      "social": {
+        "twitter": "@priya_devops",
+        "linkedin": "linkedin.com/in/priyanair",
+        "github": "github.com/priya-n"
+      }
+    },
+    "account": {
+      "created_at": "2021-11-15T00:00:00Z",
+      "last_login": "2026-03-21T06:45:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2022-06-01T00:00:00Z",
+        "expires_at": "2027-06-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Asia/Kolkata",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 91,
+      "followers": 1780,
+      "following": 145,
+      "reputation": 4200
+    },
+    "tags": ["devops", "terraform", "kubernetes", "ci-cd"]
+  },
+  {
+    "id": 10,
+    "username": "max_o",
+    "email": "max.o@startuplab.ca",
+    "password_hash": "$2b$12$tuv890wxy",
+    "profile": {
+      "first_name": "Maxwell",
+      "last_name": "Okonkwo",
+      "age": 33,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/max_o.jpg",
+      "bio": "Startup founder building EdTech solutions for underserved communities.",
+      "date_of_birth": "1992-10-08"
+    },
+    "contact": {
+      "phone": "+1-416-555-9876",
+      "address": {
+        "street": "100 King Street West",
+        "city": "Toronto",
+        "state": "Ontario",
+        "zip": "M5X 1A9",
+        "country": "Canada"
+      },
+      "social": {
+        "twitter": "@max_edtech",
+        "linkedin": "linkedin.com/in/maxwellokonkwo",
+        "github": "github.com/max-o"
+      }
+    },
+    "account": {
+      "created_at": "2019-04-22T00:00:00Z",
+      "last_login": "2026-03-19T18:30:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2021-07-01T00:00:00Z",
+        "expires_at": "2028-07-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "America/Toronto",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 230,
+      "followers": 4700,
+      "following": 310,
+      "reputation": 8900
+    },
+    "tags": ["edtech", "startup", "founder", "education"]
+  },
+  {
+    "id": 11,
+    "username": "elena_popescu",
+    "email": "elena.popescu@dev.ro",
+    "password_hash": "$2b$12$zab123cde",
+    "profile": {
+      "first_name": "Elena",
+      "last_name": "Popescu",
+      "age": 28,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/elena_popescu.jpg",
+      "bio": "Security researcher and ethical hacker.",
+      "date_of_birth": "1997-05-12"
+    },
+    "contact": {
+      "phone": "+40-21-1234567",
+      "address": {
+        "street": "Calea Victoriei 155",
+        "city": "Bucharest",
+        "state": "Ilfov",
+        "zip": "010073",
+        "country": "Romania"
+      },
+      "social": {
+        "twitter": "@elena_sec",
+        "linkedin": "linkedin.com/in/elenapopescu",
+        "github": "github.com/elena-p"
+      }
+    },
+    "account": {
+      "created_at": "2020-10-31T00:00:00Z",
+      "last_login": "2026-03-21T01:00:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2023-10-01T00:00:00Z",
+        "expires_at": "2026-10-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "ro",
+      "timezone": "Europe/Bucharest",
+      "theme": "dark",
+      "notifications": {
+        "email": false,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 47,
+      "followers": 2100,
+      "following": 88,
+      "reputation": 5500
+    },
+    "tags": ["security", "ctf", "pentesting", "infosec"]
+  },
+  {
+    "id": 12,
+    "username": "li_wei_code",
+    "email": "li.wei@techgiant.cn",
+    "password_hash": "$2b$12$fgh456ijk",
+    "profile": {
+      "first_name": "Li",
+      "last_name": "Wei",
+      "age": 30,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/li_wei.jpg",
+      "bio": "Distributed systems engineer at a major tech company in Shanghai.",
+      "date_of_birth": "1995-01-20"
+    },
+    "contact": {
+      "phone": "+86-21-12345678",
+      "address": {
+        "street": "Lujiazui Finance District",
+        "city": "Shanghai",
+        "state": "Shanghai",
+        "zip": "200120",
+        "country": "China"
+      },
+      "social": {
+        "twitter": "@liwei_sys",
+        "linkedin": "linkedin.com/in/liwei",
+        "github": "github.com/li-wei-code"
+      }
+    },
+    "account": {
+      "created_at": "2018-03-15T00:00:00Z",
+      "last_login": "2026-03-21T08:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2020-03-15T00:00:00Z",
+        "expires_at": "2027-03-15T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "zh",
+      "timezone": "Asia/Shanghai",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 120,
+      "followers": 3300,
+      "following": 200,
+      "reputation": 7100
+    },
+    "tags": ["distributed-systems", "golang", "kafka", "scalability"]
+  },
+  {
+    "id": 13,
+    "username": "fatima_al_zahra",
+    "email": "fatima.alzahra@uae.tech",
+    "password_hash": "$2b$12$lmn789opq",
+    "profile": {
+      "first_name": "Fatima",
+      "last_name": "Al-Zahra",
+      "age": 34,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/fatima_alzahra.jpg",
+      "bio": "AI researcher focusing on computer vision and autonomous systems.",
+      "date_of_birth": "1991-07-07"
+    },
+    "contact": {
+      "phone": "+971-50-1234567",
+      "address": {
+        "street": "Downtown Dubai, Sheikh Mohammed Bin Rashid Blvd",
+        "city": "Dubai",
+        "state": "Dubai",
+        "zip": "00000",
+        "country": "UAE"
+      },
+      "social": {
+        "twitter": "@fatima_ai",
+        "linkedin": "linkedin.com/in/fatimaalzahra",
+        "github": "github.com/fatima-az"
+      }
+    },
+    "account": {
+      "created_at": "2017-11-11T00:00:00Z",
+      "last_login": "2026-03-20T12:00:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2022-01-01T00:00:00Z",
+        "expires_at": "2029-01-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "ar",
+      "timezone": "Asia/Dubai",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 289,
+      "followers": 6700,
+      "following": 120,
+      "reputation": 12400
+    },
+    "tags": ["ai", "computer-vision", "autonomous", "deep-learning"]
+  },
+  {
+    "id": 14,
+    "username": "theo_martin",
+    "email": "theo.martin@paris.fr",
+    "password_hash": "$2b$12$rst012uvw",
+    "profile": {
+      "first_name": "Théo",
+      "last_name": "Martin",
+      "age": 22,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/theo_martin.jpg",
+      "bio": "Computer science student and competitive programmer.",
+      "date_of_birth": "2003-02-28"
+    },
+    "contact": {
+      "phone": "+33-1-12345678",
+      "address": {
+        "street": "5 Rue de Rivoli",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "zip": "75001",
+        "country": "France"
+      },
+      "social": {
+        "twitter": "@theo_cp",
+        "linkedin": "linkedin.com/in/theomain",
+        "github": "github.com/theo-m"
+      }
+    },
+    "account": {
+      "created_at": "2023-09-01T00:00:00Z",
+      "last_login": "2026-03-21T09:30:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2023-09-01T00:00:00Z",
+        "expires_at": "2026-09-01T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "fr",
+      "timezone": "Europe/Paris",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 14,
+      "followers": 340,
+      "following": 600,
+      "reputation": 780
+    },
+    "tags": ["competitive-programming", "algorithms", "c++", "student"]
+  },
+  {
+    "id": 15,
+    "username": "nina_volkov",
+    "email": "nina.volkov@dev.ru",
+    "password_hash": "$2b$12$xyz345abc",
+    "profile": {
+      "first_name": "Nina",
+      "last_name": "Volkov",
+      "age": 36,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/nina_volkov.jpg",
+      "bio": "Game developer and graphics programming enthusiast.",
+      "date_of_birth": "1989-11-20"
+    },
+    "contact": {
+      "phone": "+7-495-1234567",
+      "address": {
+        "street": "Arbat Street 25",
+        "city": "Moscow",
+        "state": "Moscow",
+        "zip": "119002",
+        "country": "Russia"
+      },
+      "social": {
+        "twitter": "@nina_gamedev",
+        "linkedin": "linkedin.com/in/ninavolkov",
+        "github": "github.com/nina-v"
+      }
+    },
+    "account": {
+      "created_at": "2014-06-10T00:00:00Z",
+      "last_login": "2026-03-18T20:15:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2018-06-10T00:00:00Z",
+        "expires_at": "2026-06-10T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "theme": "dark",
+      "notifications": {
+        "email": false,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 398,
+      "followers": 7200,
+      "following": 190,
+      "reputation": 15000
+    },
+    "tags": ["gamedev", "opengl", "vulkan", "unity"]
+  },
+  {
+    "id": 16,
+    "username": "daniel_osei",
+    "email": "daniel.osei@fintech.ng",
+    "password_hash": "$2b$12$def678ghi",
+    "profile": {
+      "first_name": "Daniel",
+      "last_name": "Osei",
+      "age": 29,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/daniel_osei.jpg",
+      "bio": "Fintech engineer building payment infrastructure for West Africa.",
+      "date_of_birth": "1996-04-03"
+    },
+    "contact": {
+      "phone": "+234-801-2345678",
+      "address": {
+        "street": "Victoria Island",
+        "city": "Lagos",
+        "state": "Lagos State",
+        "zip": "101241",
+        "country": "Nigeria"
+      },
+      "social": {
+        "twitter": "@daniel_fintech",
+        "linkedin": "linkedin.com/in/danielosei",
+        "github": "github.com/daniel-o"
+      }
+    },
+    "account": {
+      "created_at": "2020-02-14T00:00:00Z",
+      "last_login": "2026-03-20T15:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2021-02-14T00:00:00Z",
+        "expires_at": "2026-02-14T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Africa/Lagos",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 78,
+      "followers": 1650,
+      "following": 390,
+      "reputation": 3700
+    },
+    "tags": ["fintech", "payments", "java", "microservices"]
+  },
+  {
+    "id": 17,
+    "username": "hana_kim",
+    "email": "hana.kim@seoultech.kr",
+    "password_hash": "$2b$12$jkl901mno",
+    "profile": {
+      "first_name": "Hana",
+      "last_name": "Kim",
+      "age": 25,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/hana_kim.jpg",
+      "bio": "Front-end developer specializing in WebGL and 3D web experiences.",
+      "date_of_birth": "2000-10-10"
+    },
+    "contact": {
+      "phone": "+82-2-1234-5678",
+      "address": {
+        "street": "Gangnam-daero 100",
+        "city": "Seoul",
+        "state": "Seoul",
+        "zip": "06234",
+        "country": "South Korea"
+      },
+      "social": {
+        "twitter": "@hana_3dweb",
+        "linkedin": "linkedin.com/in/hanakim",
+        "github": "github.com/hana-k"
+      }
+    },
+    "account": {
+      "created_at": "2022-07-01T00:00:00Z",
+      "last_login": "2026-03-21T10:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2022-07-01T00:00:00Z",
+        "expires_at": "2025-07-01T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "ko",
+      "timezone": "Asia/Seoul",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 28,
+      "followers": 560,
+      "following": 480,
+      "reputation": 1200
+    },
+    "tags": ["webgl", "three.js", "frontend", "3d"]
+  },
+  {
+    "id": 18,
+    "username": "rafael_santos",
+    "email": "rafael.santos@techbr.com.br",
+    "password_hash": "$2b$12$pqr234stu",
+    "profile": {
+      "first_name": "Rafael",
+      "last_name": "Santos",
+      "age": 40,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/rafael_santos.jpg",
+      "bio": "Senior architect building large-scale systems for Brazilian enterprises.",
+      "date_of_birth": "1985-03-17"
+    },
+    "contact": {
+      "phone": "+55-11-91234-5678",
+      "address": {
+        "street": "Av. Paulista 1000",
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "zip": "01310-100",
+        "country": "Brazil"
+      },
+      "social": {
+        "twitter": "@rafael_arch",
+        "linkedin": "linkedin.com/in/rafaelsantos",
+        "github": "github.com/rafael-s"
+      }
+    },
+    "account": {
+      "created_at": "2012-01-01T00:00:00Z",
+      "last_login": "2026-03-20T08:00:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2015-01-01T00:00:00Z",
+        "expires_at": "2030-01-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "pt",
+      "timezone": "America/Sao_Paulo",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 510,
+      "followers": 9800,
+      "following": 250,
+      "reputation": 22000
+    },
+    "tags": ["java", "spring", "architecture", "enterprise"]
+  },
+  {
+    "id": 19,
+    "username": "aisha_diallo",
+    "email": "aisha.diallo@dakar.sn",
+    "password_hash": "$2b$12$vwx567yza",
+    "profile": {
+      "first_name": "Aisha",
+      "last_name": "Diallo",
+      "age": 23,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/aisha_diallo.jpg",
+      "bio": "Junior developer and community organizer promoting tech in Senegal.",
+      "date_of_birth": "2002-09-14"
+    },
+    "contact": {
+      "phone": "+221-77-1234567",
+      "address": {
+        "street": "Plateau District",
+        "city": "Dakar",
+        "state": "Dakar",
+        "zip": "BP 3007",
+        "country": "Senegal"
+      },
+      "social": {
+        "twitter": "@aisha_codes",
+        "linkedin": "linkedin.com/in/aishadiallo",
+        "github": "github.com/aisha-d"
+      }
+    },
+    "account": {
+      "created_at": "2023-04-01T00:00:00Z",
+      "last_login": "2026-03-20T17:45:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2023-04-01T00:00:00Z",
+        "expires_at": "2026-04-01T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "fr",
+      "timezone": "Africa/Dakar",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 9,
+      "followers": 230,
+      "following": 310,
+      "reputation": 420
+    },
+    "tags": ["javascript", "community", "mentorship", "africa-tech"]
+  },
+  {
+    "id": 20,
+    "username": "steve_b",
+    "email": "steve.b@mlops.io",
+    "password_hash": "$2b$12$bcd890efg",
+    "profile": {
+      "first_name": "Steven",
+      "last_name": "Brooks",
+      "age": 45,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/steve_b.jpg",
+      "bio": "MLOps engineer with expertise in model deployment and monitoring.",
+      "date_of_birth": "1980-06-01"
+    },
+    "contact": {
+      "phone": "+1-415-555-7890",
+      "address": {
+        "street": "Market Street 500",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "country": "USA"
+      },
+      "social": {
+        "twitter": "@steve_mlops",
+        "linkedin": "linkedin.com/in/stevenbrooks",
+        "github": "github.com/steve-b"
+      }
+    },
+    "account": {
+      "created_at": "2010-05-10T00:00:00Z",
+      "last_login": "2026-03-21T07:30:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2016-01-01T00:00:00Z",
+        "expires_at": "2031-01-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "America/Los_Angeles",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 620,
+      "followers": 11500,
+      "following": 300,
+      "reputation": 28000
+    },
+    "tags": ["mlops", "python", "kubeflow", "monitoring"]
+  },
+  {
+    "id": 21,
+    "username": "ingrid_h",
+    "email": "ingrid.h@nordic.se",
+    "password_hash": "$2b$12$hij123klm",
+    "profile": {
+      "first_name": "Ingrid",
+      "last_name": "Holmberg",
+      "age": 31,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/ingrid_h.jpg",
+      "bio": "Open-source contributor and developer advocate at a Nordic SaaS company.",
+      "date_of_birth": "1994-12-18"
+    },
+    "contact": {
+      "phone": "+46-8-12345678",
+      "address": {
+        "street": "Drottninggatan 55",
+        "city": "Stockholm",
+        "state": "Stockholm",
+        "zip": "111 21",
+        "country": "Sweden"
+      },
+      "social": {
+        "twitter": "@ingrid_oss",
+        "linkedin": "linkedin.com/in/ingridholmberg",
+        "github": "github.com/ingrid-h"
+      }
+    },
+    "account": {
+      "created_at": "2018-08-20T00:00:00Z",
+      "last_login": "2026-03-19T13:00:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2020-08-20T00:00:00Z",
+        "expires_at": "2026-08-20T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "sv",
+      "timezone": "Europe/Stockholm",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 155,
+      "followers": 2400,
+      "following": 170,
+      "reputation": 5800
+    },
+    "tags": ["open-source", "devrel", "rust", "saas"]
+  },
+  {
+    "id": 22,
+    "username": "arjun_mehta",
+    "email": "arjun.mehta@startupind.in",
+    "password_hash": "$2b$12$nop456qrs",
+    "profile": {
+      "first_name": "Arjun",
+      "last_name": "Mehta",
+      "age": 27,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/arjun_mehta.jpg",
+      "bio": "Growth hacker turned full-stack developer for early-stage startups.",
+      "date_of_birth": "1998-03-22"
+    },
+    "contact": {
+      "phone": "+91-90000-12345",
+      "address": {
+        "street": "Bandra Kurla Complex",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zip": "400051",
+        "country": "India"
+      },
+      "social": {
+        "twitter": "@arjun_growth",
+        "linkedin": "linkedin.com/in/arjunmehta",
+        "github": "github.com/arjun-m"
+      }
+    },
+    "account": {
+      "created_at": "2021-06-01T00:00:00Z",
+      "last_login": "2026-03-21T04:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2021-06-01T00:00:00Z",
+        "expires_at": "2025-06-01T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Asia/Mumbai",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 42,
+      "followers": 890,
+      "following": 650,
+      "reputation": 1800
+    },
+    "tags": ["growth", "nextjs", "startup", "saas"]
+  },
+  {
+    "id": 23,
+    "username": "claire_d",
+    "email": "claire.d@biotech.ch",
+    "password_hash": "$2b$12$tuv789wxy",
+    "profile": {
+      "first_name": "Claire",
+      "last_name": "Dubois",
+      "age": 43,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/claire_d.jpg",
+      "bio": "Bioinformatics researcher applying ML to genomics data.",
+      "date_of_birth": "1982-08-08"
+    },
+    "contact": {
+      "phone": "+41-44-1234567",
+      "address": {
+        "street": "Rämistrasse 101",
+        "city": "Zurich",
+        "state": "Zurich",
+        "zip": "8092",
+        "country": "Switzerland"
+      },
+      "social": {
+        "twitter": "@claire_bio",
+        "linkedin": "linkedin.com/in/clairedubois",
+        "github": "github.com/claire-d"
+      }
+    },
+    "account": {
+      "created_at": "2013-10-05T00:00:00Z",
+      "last_login": "2026-03-17T09:00:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2017-10-05T00:00:00Z",
+        "expires_at": "2030-10-05T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "fr",
+      "timezone": "Europe/Zurich",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 445,
+      "followers": 8300,
+      "following": 140,
+      "reputation": 19500
+    },
+    "tags": ["bioinformatics", "genomics", "python", "research"]
+  },
+  {
+    "id": 24,
+    "username": "jose_luna",
+    "email": "jose.luna@devmx.io",
+    "password_hash": "$2b$12$zab012cde",
+    "profile": {
+      "first_name": "José",
+      "last_name": "Luna",
+      "age": 37,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/jose_luna.jpg",
+      "bio": "Platform engineer and open-source maintainer.",
+      "date_of_birth": "1988-01-31"
+    },
+    "contact": {
+      "phone": "+52-33-1234-5678",
+      "address": {
+        "street": "Av. Chapultepec 15",
+        "city": "Guadalajara",
+        "state": "Jalisco",
+        "zip": "44600",
+        "country": "Mexico"
+      },
+      "social": {
+        "twitter": "@jose_platform",
+        "linkedin": "linkedin.com/in/joseluna",
+        "github": "github.com/jose-l"
+      }
+    },
+    "account": {
+      "created_at": "2016-12-25T00:00:00Z",
+      "last_login": "2026-03-20T22:00:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2019-12-25T00:00:00Z",
+        "expires_at": "2026-12-25T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "es",
+      "timezone": "America/Mexico_City",
+      "theme": "dark",
+      "notifications": {
+        "email": false,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 188,
+      "followers": 3100,
+      "following": 260,
+      "reputation": 7400
+    },
+    "tags": ["platform-engineering", "golang", "open-source", "linux"]
+  },
+  {
+    "id": 25,
+    "username": "malia_f",
+    "email": "malia.f@pacific.nz",
+    "password_hash": "$2b$12$fgh345ijk",
+    "profile": {
+      "first_name": "Malia",
+      "last_name": "Faleolo",
+      "age": 30,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/malia_f.jpg",
+      "bio": "Climate tech developer building carbon tracking tools.",
+      "date_of_birth": "1995-05-05"
+    },
+    "contact": {
+      "phone": "+64-9-1234567",
+      "address": {
+        "street": "Queen Street 1",
+        "city": "Auckland",
+        "state": "Auckland",
+        "zip": "1010",
+        "country": "New Zealand"
+      },
+      "social": {
+        "twitter": "@malia_climate",
+        "linkedin": "linkedin.com/in/maliafaleolo",
+        "github": "github.com/malia-f"
+      }
+    },
+    "account": {
+      "created_at": "2019-08-12T00:00:00Z",
+      "last_login": "2026-03-20T06:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2022-08-12T00:00:00Z",
+        "expires_at": "2027-08-12T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "en",
+      "timezone": "Pacific/Auckland",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 63,
+      "followers": 1400,
+      "following": 300,
+      "reputation": 3300
+    },
+    "tags": ["climate-tech", "sustainability", "python", "data"]
+  },
+  {
+    "id": 26,
+    "username": "tobias_k",
+    "email": "tobias.k@fintech.at",
+    "password_hash": "$2b$12$lmn678opq",
+    "profile": {
+      "first_name": "Tobias",
+      "last_name": "Keller",
+      "age": 39,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/tobias_k.jpg",
+      "bio": "Quantitative developer building algorithmic trading systems.",
+      "date_of_birth": "1986-04-20"
+    },
+    "contact": {
+      "phone": "+43-1-1234567",
+      "address": {
+        "street": "Ringstrasse 5",
+        "city": "Vienna",
+        "state": "Vienna",
+        "zip": "1010",
+        "country": "Austria"
+      },
+      "social": {
+        "twitter": "@tobias_quant",
+        "linkedin": "linkedin.com/in/tobiaskeller",
+        "github": "github.com/tobias-k"
+      }
+    },
+    "account": {
+      "created_at": "2015-03-03T00:00:00Z",
+      "last_login": "2026-03-21T06:00:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2018-03-03T00:00:00Z",
+        "expires_at": "2028-03-03T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "de",
+      "timezone": "Europe/Vienna",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 267,
+      "followers": 5100,
+      "following": 110,
+      "reputation": 11200
+    },
+    "tags": ["quant", "trading", "c++", "finance"]
+  },
+  {
+    "id": 27,
+    "username": "ada_nguyen",
+    "email": "ada.nguyen@hcmc.vn",
+    "password_hash": "$2b$12$rst901uvw",
+    "profile": {
+      "first_name": "Ada",
+      "last_name": "Nguyen",
+      "age": 25,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/ada_nguyen.jpg",
+      "bio": "Backend developer focused on high-performance APIs.",
+      "date_of_birth": "2000-07-04"
+    },
+    "contact": {
+      "phone": "+84-90-1234567",
+      "address": {
+        "street": "Nguyen Hue Boulevard 1",
+        "city": "Ho Chi Minh City",
+        "state": "HCMC",
+        "zip": "700000",
+        "country": "Vietnam"
+      },
+      "social": {
+        "twitter": "@ada_backend",
+        "linkedin": "linkedin.com/in/adanguyen",
+        "github": "github.com/ada-n"
+      }
+    },
+    "account": {
+      "created_at": "2022-05-20T00:00:00Z",
+      "last_login": "2026-03-21T11:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2022-05-20T00:00:00Z",
+        "expires_at": "2025-05-20T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "vi",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 21,
+      "followers": 490,
+      "following": 520,
+      "reputation": 960
+    },
+    "tags": ["backend", "golang", "postgresql", "api"]
+  },
+  {
+    "id": 28,
+    "username": "samuel_ev",
+    "email": "samuel.ev@techethiopia.et",
+    "password_hash": "$2b$12$xyz234abc",
+    "profile": {
+      "first_name": "Samuel",
+      "last_name": "Eyob Verma",
+      "age": 28,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/samuel_ev.jpg",
+      "bio": "Developer building offline-first apps for low-bandwidth environments.",
+      "date_of_birth": "1997-11-28"
+    },
+    "contact": {
+      "phone": "+251-91-1234567",
+      "address": {
+        "street": "Bole Road",
+        "city": "Addis Ababa",
+        "state": "Addis Ababa",
+        "zip": "1000",
+        "country": "Ethiopia"
+      },
+      "social": {
+        "twitter": "@samuel_offline",
+        "linkedin": "linkedin.com/in/samueleyob",
+        "github": "github.com/samuel-e"
+      }
+    },
+    "account": {
+      "created_at": "2021-09-09T00:00:00Z",
+      "last_login": "2026-03-19T14:00:00Z",
+      "status": "active",
+      "role": "user",
+      "subscription": {
+        "plan": "basic",
+        "started_at": "2021-09-09T00:00:00Z",
+        "expires_at": "2026-09-09T00:00:00Z",
+        "auto_renew": false
+      }
+    },
+    "preferences": {
+      "language": "am",
+      "timezone": "Africa/Addis_Ababa",
+      "theme": "light",
+      "notifications": {
+        "email": true,
+        "sms": true,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 37,
+      "followers": 710,
+      "following": 430,
+      "reputation": 1600
+    },
+    "tags": ["offline-first", "pwa", "react", "africa-tech"]
+  },
+  {
+    "id": 29,
+    "username": "miriam_cz",
+    "email": "miriam.cz@praguecode.cz",
+    "password_hash": "$2b$12$bcd567efg",
+    "profile": {
+      "first_name": "Miriam",
+      "last_name": "Červenková",
+      "age": 33,
+      "gender": "female",
+      "avatar_url": "https://avatars.example.com/miriam_cz.jpg",
+      "bio": "Cloud-native developer and Kubernetes specialist.",
+      "date_of_birth": "1992-06-06"
+    },
+    "contact": {
+      "phone": "+420-2-1234567",
+      "address": {
+        "street": "Václavské náměstí 1",
+        "city": "Prague",
+        "state": "Prague",
+        "zip": "110 00",
+        "country": "Czech Republic"
+      },
+      "social": {
+        "twitter": "@miriam_k8s",
+        "linkedin": "linkedin.com/in/miriamcervenkova",
+        "github": "github.com/miriam-cz"
+      }
+    },
+    "account": {
+      "created_at": "2017-07-07T00:00:00Z",
+      "last_login": "2026-03-20T10:30:00Z",
+      "status": "active",
+      "role": "editor",
+      "subscription": {
+        "plan": "pro",
+        "started_at": "2020-07-07T00:00:00Z",
+        "expires_at": "2026-07-07T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "cs",
+      "timezone": "Europe/Prague",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      }
+    },
+    "stats": {
+      "posts": 134,
+      "followers": 2700,
+      "following": 185,
+      "reputation": 6400
+    },
+    "tags": ["kubernetes", "cloud-native", "helm", "gitops"]
+  },
+  {
+    "id": 30,
+    "username": "ryo_suzuki",
+    "email": "ryo.suzuki@osaka.jp",
+    "password_hash": "$2b$12$hij890klm",
+    "profile": {
+      "first_name": "Ryo",
+      "last_name": "Suzuki",
+      "age": 44,
+      "gender": "male",
+      "avatar_url": "https://avatars.example.com/ryo_suzuki.jpg",
+      "bio": "Embedded systems engineer with 20 years of experience in IoT.",
+      "date_of_birth": "1981-10-15"
+    },
+    "contact": {
+      "phone": "+81-6-1234-5678",
+      "address": {
+        "street": "Dotonbori 1-chome",
+        "city": "Osaka",
+        "state": "Osaka",
+        "zip": "542-0071",
+        "country": "Japan"
+      },
+      "social": {
+        "twitter": "@ryo_iot",
+        "linkedin": "linkedin.com/in/ryosuzuki",
+        "github": "github.com/ryo-s"
+      }
+    },
+    "account": {
+      "created_at": "2008-04-01T00:00:00Z",
+      "last_login": "2026-03-21T03:00:00Z",
+      "status": "active",
+      "role": "admin",
+      "subscription": {
+        "plan": "enterprise",
+        "started_at": "2012-04-01T00:00:00Z",
+        "expires_at": "2032-04-01T00:00:00Z",
+        "auto_renew": true
+      }
+    },
+    "preferences": {
+      "language": "ja",
+      "timezone": "Asia/Osaka",
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": false
+      }
+    },
+    "stats": {
+      "posts": 740,
+      "followers": 14200,
+      "following": 180,
+      "reputation": 32000
+    },
+    "tags": ["embedded", "iot", "c", "rtos"]
+  }
+]
