@@ -41,12 +41,12 @@ fn main() {
         process::exit(1);
     });
 
-    println!("{config:?}");
-
     let json_value = read_json(&config.file_name).unwrap_or_else(|error| {
         eprintln!("{error}");
         process::exit(1);
     });
 
-    println!("{json_value}");
+    let json_value = json_value.get(3).unwrap_or_else(|| process::exit(1));
+    let result = json_value.get(config.query);
+    println!("{result:?}");
 }
