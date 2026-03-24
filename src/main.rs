@@ -1,12 +1,12 @@
-use std::{env, fs, process};
-use std::io::Error;
-use std::collections::HashMap;
 use serde_json::Value;
+use std::collections::HashMap;
+use std::io::Error;
+use std::{env, fs, process};
 
 #[derive(Debug)]
 struct Config {
     query: Vec<String>,
-    file_name: String
+    file_name: String,
 }
 
 impl Config {
@@ -15,7 +15,7 @@ impl Config {
 
         let query = match args.next() {
             Some(arg) => arg,
-            None => return Err("required query not found")
+            None => return Err("required query not found"),
         };
 
         let query: Vec<String> = query
@@ -26,7 +26,7 @@ impl Config {
 
         let file_name = match args.next() {
             Some(arg) => arg,
-            None => return Err("required file_name not found")
+            None => return Err("required file_name not found"),
         };
 
         Ok(Config { query, file_name })
@@ -35,7 +35,7 @@ impl Config {
 
 #[derive(Debug)]
 struct JsonObject {
-    json_object: Vec<HashMap<String, Value>>
+    json_object: Vec<HashMap<String, Value>>,
 }
 
 impl JsonObject {
@@ -50,7 +50,14 @@ impl JsonObject {
         let mut result: Vec<&Value> = Vec::new();
 
         for object in &self.json_object {
-            if let Some(value) = object.get(&query[0]) {
+            let mut keys = query.iter();
+            let mut current_value = keys.next().and_then(|k| object.get(k));
+
+            for key in keys {
+                current_value = current_value.and_then(|v| v.get(key));
+            }
+
+            if let Some(value) = current_value {
                 result.push(value);
             }
         }
@@ -68,7 +75,7 @@ fn main() {
     println!("{config:?}");
 
     let json_object = JsonObject::new(&config.file_name).unwrap_or_else(|error| {
-       eprintln!("{error}");
+        eprintln!("{error}");
         process::exit(1);
     });
 
