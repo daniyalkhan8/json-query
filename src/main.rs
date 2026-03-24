@@ -1,11 +1,11 @@
-use std::{env, process};
-use std::fs::File;
-use std::io::{BufReader, Error};
+use std::{env, fs, process};
+use std::io::Error;
+use std::collections::HashMap;
 use serde_json::Value;
 
 #[derive(Debug)]
 struct Config {
-    query: String,
+    query: Vec<String>,
     file_name: String
 }
 
@@ -17,6 +17,13 @@ impl Config {
             Some(arg) => arg,
             None => return Err("required query not found")
         };
+
+        let query: Vec<String> = query
+            .split(".")
+            .map(|s| s.to_string())
+            .filter(|s| !s.is_empty())
+            .collect();
+
         let file_name = match args.next() {
             Some(arg) => arg,
             None => return Err("required file_name not found")
@@ -26,12 +33,30 @@ impl Config {
     }
 }
 
-fn read_json(file_name: &str) -> Result<Value, Error> {
-    let file = File::open(file_name)?;
-    let reader = BufReader::new(file);
+#[derive(Debug)]
+struct JsonObject {
+    json_object: Vec<HashMap<String, Value>>
+}
 
-    let value: Value = serde_json::from_reader(reader)?;
-    Ok(value)
+impl JsonObject {
+    fn new(file_name: &str) -> Result<JsonObject, Error> {
+        let json = fs::read_to_string(file_name)?;
+        let json_object: Vec<HashMap<String, Value>> = serde_json::from_str(&json)?;
+
+        Ok(JsonObject { json_object })
+    }
+
+    fn query(&self, query: &Vec<String>) -> Vec<&Value> {
+        let mut result: Vec<&Value> = Vec::new();
+
+        for object in &self.json_object {
+            if let Some(value) = object.get(&query[0]) {
+                result.push(value);
+            }
+        }
+
+        result
+    }
 }
 
 fn main() {
@@ -40,13 +65,13 @@ fn main() {
         eprintln!("{error}");
         process::exit(1);
     });
+    println!("{config:?}");
 
-    let json_value = read_json(&config.file_name).unwrap_or_else(|error| {
-        eprintln!("{error}");
+    let json_object = JsonObject::new(&config.file_name).unwrap_or_else(|error| {
+       eprintln!("{error}");
         process::exit(1);
     });
 
-    let json_value = json_value.get(3).unwrap_or_else(|| process::exit(1));
-    let result = json_value.get(config.query);
-    println!("{result:?}");
+    let user_names = json_object.query(&config.query);
+    println!("{user_names:?}");
 }
