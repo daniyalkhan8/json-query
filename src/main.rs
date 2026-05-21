@@ -5,31 +5,35 @@ use std::{env, fs, process};
 
 #[derive(Debug)]
 struct Config {
-    query: Vec<String>,
     file_name: String,
+    query: Vec<String>,
+    compare_value: String,
 }
 
 impl Config {
-    fn new(mut args: impl Iterator<Item = String>) -> Result<Config, &'static str> {
-        args.next();
+    fn new(args: Vec<String>) -> Result<Config, String> {
+        let mut file_name = String::new();
+        let mut query = String::new();
+        let mut compare_value = String::new();
 
-        let query = match args.next() {
-            Some(arg) => arg,
-            None => return Err("required query not found"),
-        };
+        let mut i = 0;
+        while i < args.len() {
+            match args[i].as_str() {
+                "-f" => {i += 1; file_name = args[i].clone();}
+                "-q" => {i += 1; query = args[i].clone();}
+                "-v" => {i += 1; compare_value = args[i].clone();}
+                _ => return Err(format!("Unknown flag found: {}", args[i].as_str()))
+            }
+            i += 1;
+        }
 
-        let query: Vec<String> = query
+        let query = query
             .split(".")
             .map(|s| s.to_string())
             .filter(|s| !s.is_empty())
             .collect();
 
-        let file_name = match args.next() {
-            Some(arg) => arg,
-            None => return Err("required file_name not found"),
-        };
-
-        Ok(Config { query, file_name })
+        Ok(Config { file_name, query, compare_value })
     }
 }
 
@@ -67,8 +71,10 @@ impl JsonObject {
 }
 
 fn main() {
-    let cli_args = env::args();
-    let config = Config::new(cli_args).unwrap_or_else(|error| {
+    let mut cli_args = env::args();
+    cli_args.next();
+
+    let config = Config::new(cli_args.collect()).unwrap_or_else(|error| {
         eprintln!("{error}");
         process::exit(1);
     });
