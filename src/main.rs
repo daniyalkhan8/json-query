@@ -50,8 +50,8 @@ impl JsonObject {
         Ok(JsonObject { json_object })
     }
 
-    fn query(&self, query: &Vec<String>) -> Vec<&Value> {
-        let mut result: Vec<&Value> = Vec::new();
+    fn query(&self, query: &Vec<String>, compare_value: &String) -> Vec<Value> {
+        let mut result: Vec<Value> = Vec::new();
 
         for object in &self.json_object {
             let mut keys = query.iter();
@@ -62,7 +62,11 @@ impl JsonObject {
             }
 
             if let Some(value) = current_value {
-                result.push(value);
+                if !compare_value.is_empty() && value.as_str() == Some(compare_value.as_str()) {
+                    result.push(serde_json::to_value(object).unwrap());
+                } else if compare_value.is_empty() {
+                    result.push(value.clone());
+                }
             }
         }
 
@@ -85,6 +89,6 @@ fn main() {
         process::exit(1);
     });
 
-    let user_names = json_object.query(&config.query);
+    let user_names = json_object.query(&config.query, &config.compare_value);
     println!("{user_names:?}");
 }
